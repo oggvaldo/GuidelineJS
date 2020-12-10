@@ -203,7 +203,7 @@
             <p>
                 <label class="choice"> 
                 <strong>Agency & Oversight</strong>
-                    <div style="background-color:LightBlue;width:400px;border:1px solid black;padding:15px;">
+                    <div style="background-color:LightSeaGreen;width:400px;border:1px solid black;padding:15px;">
                         <p>#9 Access to Data</p>
                         <p>Motivation: 
                         Aside from carefully planning what data you colect and how it is also important to plan how it can or will be used and by whom.</p>
@@ -224,7 +224,7 @@
             <p>
                 <label class="choice"> 
                 <strong>Agency & Oversight</strong>
-                    <div style="background-color:LightBlue;width:400px;border:1px solid black;padding:15px;">
+                    <div style="background-color:LightSeaGreen;width:400px;border:1px solid black;padding:15px;">
                         <p>#10 Human Agency</p>
                         <p>Motivation: 
                         People interacting with the system or using it shoud be able to undersand it sufficiently. Users should be able to make informed decisions based on its suggestions, or to challenge its suggestions. AI systems should let humans make independent choices.
@@ -246,8 +246,8 @@
             </p>
             <p>
                 <label class="choice"> 
-                <strong>Safety & Security</strong>
-                    <div style="background-color:LightBlue;width:400px;border:1px solid black;padding:15px;">
+                <strong>Agency & Oversight</strong>
+                    <div style="background-color:LightSeaGreen;width:400px;border:1px solid black;padding:15px;">
                         <p>#11 Human Oversight</p>
                         <p>Motivation: 
                         AI systems shoud support human decision-making. They shoud not undermine human autonomy by making decisions for us, meaning they shoud be subject to human oversight.</p>
@@ -268,7 +268,7 @@
             <p>
                 <label class="choice"> 
                 <strong>Safety & Security</strong>
-                    <div style="background-color:LightBlue;width:400px;border:1px solid black;padding:15px;">
+                    <div style="background-color:LightGreen;width:400px;border:1px solid black;padding:15px;">
                         <p>#12 System Security</p>
                         <p>Motivation: 
                         While cybersecurity is important in any system, AI systems present new challenges. Cyber-physical systems can even cause fatalities in the hands of malicious actors.
@@ -288,8 +288,8 @@
             </p>
             <p>
                 <label class="choice"> 
-                <strong>Fairness</strong>
-                    <div style="background-color:LightBlue;width:400px;border:1px solid black;padding:15px;">
+                <strong>Safety & Security</strong>
+                    <div style="background-color:LightGreen;width:400px;border:1px solid black;padding:15px;">
                         <p>#13 System Safety</p>
                         <p>Motivation: 
                         AI systems exert notable influence on the physical world whether they are cyber-physical or not. Various risks and their consequences should be considered, thinking ahead to the operational life of the system.
@@ -312,7 +312,7 @@
             <p>
                 <label class="choice"> 
                 <strong>Fairness</strong>
-                    <div style="background-color:LightBlue;width:400px;border:1px solid black;padding:15px;">
+                    <div style="background-color:Yellow;width:400px;border:1px solid black;padding:15px;">
                         <p>#14 Accessbility</p>
                         <p>Motivation: 
                         Technology can be discriminatin in various ways. Given the enormous impact AI systems can have, ensuring equal access to their positive impacts is ethically important.
@@ -336,7 +336,7 @@
             <p>
                 <label class="choice"> 
                 <strong>Analyze</strong>
-                    <div style="background-color:LightBlue;width:400px;border:1px solid black;padding:15px;">
+                    <div style="background-color:Yellow;width:400px;border:1px solid black;padding:15px;">
                         <p>#15 Stakeholder Participation</p>
                         <p>Motivation: 
                         As AI systems have notable impacts, they stakeholders are also numerous. Though the system affects these various holders in various ways, they are often not involved in the development. Yet, e.g. when using a decision-making system, its users have to trust the system while also being critical of it.
@@ -357,7 +357,7 @@
             <p>
                 <label class="choice"> 
                 <strong>Wellbeing</strong>
-                    <div style="background-color:LightBlue;width:400px;border:1px solid black;padding:15px;">
+                    <div style="background-color:Orange;width:400px;border:1px solid black;padding:15px;">
                         <p>#16 Environmental Impacts</p>
                         <p>Motivation: 
                         Past the general wellbeing implications, ecological consciousness is a current trend. Being ecological can be a selling point for your organization.
@@ -378,7 +378,7 @@
             <p>
                 <label class="choice"> 
                 <strong>Wellbeing</strong>
-                    <div style="background-color:LightBlue;width:400px;border:1px solid black;padding:15px;">
+                    <div style="background-color:Orange;width:400px;border:1px solid black;padding:15px;">
                         <p>#17 Societal Effects</p>
                         <p>Motivation: 
                         The impacts a system has go beyond its userbase. A system may well affect negatively even those who do net use it nor wish to use it.
@@ -399,7 +399,7 @@
             <p>
                 <label class="choice"> 
                 <strong>Accountability</strong>
-                    <div style="background-color:LightBlue;width:400px;border:1px solid black;padding:15px;">
+                    <div style="background-color:Tomato;width:400px;border:1px solid black;padding:15px;">
                         <p>#18 Auditability</p>
                         <p>Motivation: 
                         Regulations affecting AI and data may necessitate audits of systems in the future. Similarly, if the system causes damage, an audit might be requested. It is good to have mechanisms in place beforehand.
@@ -421,7 +421,7 @@
             <p>
                 <label class="choice"> 
                 <strong>Accountability</strong>
-                    <div style="background-color:LightBlue;width:400px;border:1px solid black;padding:15px;">
+                    <div style="background-color:Tomato;width:400px;border:1px solid black;padding:15px;">
                         <p>#19 Ability to Redress</p>
                             <p>Motivation: 
                             Making sure people know they can be compensated in some way in the event something goes wrong with the system is important in generating trust. Such scenarios should be planned in advance to what extent possible.
@@ -442,7 +442,7 @@
             <p>
                 <label class="choice"> 
                 <strong>Accountability</strong>
-                    <div style="background-color:LightBlue;width:400px;border:1px solid black;padding:15px;">
+                    <div style="background-color:Tomato;width:400px;border:1px solid black;padding:15px;">
                         <p>#20 Minimizing Negative Impacts</p>
                             <p>Motivation: 
                             Minimizing negative impacts of the system is financially important for any developer organization. Incidents are often costly.
