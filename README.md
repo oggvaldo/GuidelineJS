@@ -1,2 +1,2 @@
-# eccola-interface
-Transforming the ECCOLA model into a System
+# GuidelineJS
+Using the ECCOLA model to base a AI Ethics system.
