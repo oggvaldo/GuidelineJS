@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Bootstrap Example Template</title>
+    <meta charset="utf-8">
+    <!-- Viewport Meta Tag -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<style>
+		.flex-container {
+		  display: flex;
+		  flex-wrap: wrap;
+		  justify-content: space-around;
+		}
+		.blue-card {
+			color: white;
+		}
+	</style>
+  </head>
+  <body>
+  	<legend>ECCOLA</legend>
+    <div class="flex-container">
+    	<div>
+            <p>
+                <label class="choice"> 
+                <strong>Analyze</strong>
+                    <div style="background-color:Blue;width:400px;border:1px solid black;padding:15px;color: white">
+                        <p><input type="checkbox" name="extras" value="Card"> #0 Stakeholder Analysis</p>
+                        <p>Motivation: In order to understand the big picture, it is important to first understand who the system can affect and how. Try to also think past the obvious, direct stakeholders such as your end-users.</p>
+                        <p>What to Do: Identify stakeholders.</p>
+                        <p><li>Who does the system affect and how? Stakeholders are not simply users, developers and customers.</li></p>
+                        <p><li>How are the various stakeholders linked together?</li></p>
+                        <p><li>Can these different stakeholders influence the development of the system? How?</li></p>
+                        <p><li>Remember that a user is ofthen an organization and the end-user is an individual. Similarly, AI systems can treat people as objects for data colection.</li></p>
+                        <p><b>Practical Example:</b> Autonomous cars don't just affect ther passengers. Anyone mearby is affected; some even change the way they drive. If at one point half of the traffic consists of selt-driving cars, what are the societal impacts of such systems? E.g., how are the people who can't afford one affected? Regulations arising from such systems are also affect everyone.</p>
+                    </div>
+                </label>
+            </p>
+        </div>
+    </div>
+    <div class="flex-container">
+        <div>
+            <p>
+                <label class="choice"> 
+                <strong>Transparency</strong>
+                    <div style="background-color:Violet;width:400px;border:1px solid black;padding:15px;">
+                        <p><input type="checkbox" name="extras" value="Card"> #1 Types of Transparency</p>
+                        <p>Motivation: When considering transparency, it is important to understand who you are being transparent toward, and what you are being transparent about.</p>
+                        <p>What to Do: 
+                        Consider the following...
+                        <p><li>Are you trying to understand something? (Internal transparency)</li></p>
+                        <p><li>Are you trying to explain something? (External transparency)</li></p>
+                        <p><li>Are you trying to understand or explain how the system works? (Transparency of algorithms and data)</li></p>
+                        <p><li>Are you trying to understand or explain why the system was made to be the way it is now? (Transparency of system development)</li></p>
+                        <p><li>External stakeholders to consider, among other: (end-)users, safety certification agencies, accident investigators, lawyers or expert witnesses, and society at large for disruptive technologies.</li></p>
+                        </p>
+                    </div>
+                </label>
+            </p>
+        </div>
+        <div>
+            <p>
+                <label class="choice"> 
+                <strong>Transparency</strong>
+                    <div style="background-color:Violet;width:400px;border:1px solid black;padding:15px;">
+                        <p><input type="checkbox" name="extras" value="Card"> #2 Explainability</p>
+                        <p>Motivation: If we cannot understand the reasons behind the actions of the AI, it is difficult to trust it.</p>
+
+                        <p>What to do: 
+                        Ask yourself:
+
+                        <p><li>Is explainability a goal for your system? How do you plan to ensure it?</li></p>
+                        <p><li>How well can each decision of the system be understood? By both developers and (end-)users?</li></p>
+                        <p><li>Did you try to use the simplest and most interpretable model possible for the context?</li></p>
+                        <p><li>Did you made trade-offs between explainability and accuracy? What kind of? Why?</li></p>
+                        <p><li>How familiar are you with your training or testing data? Can you change it when needed?</li></p>
+                        <p><li>If you utilize third party components in the system, how well do you understand them?</li></p>
+
+                        </p>
+
+                        <p>Practical Example: 
+                        When interacting with a robot, users could ideally ask the robot "why did you do that?" and receive and understandable response. This would make it much easier for                         them to trust a system.
+                        </p>
+                    </div>
+                </label>
+            </p>
+        </div>
+        <div>
+            <p>
+                <label class="choice"> 
+                <strong>Transparency</strong>
+                    <div style="background-color:Violet;width:400px;border:1px solid black;padding:15px;">
+                        <p><input type="checkbox" name="extras" value="Card"> #3 Communication</p>
+                            <p>Motivation: 
+                            In practice, communication is a big part of being transparent with your stakeholders. Being transparent in communication can generate trust.
+                            </p>
+
+                            <p>What to do: 
+                            Ask yourself: 
+                            <p><li>What is the goal of the system? Why is this particular system deployed in this specific area?</li></p>
+                            <p><li>What do you communicate about the system to its users and end-users? Is it enough for them to understand how the system works?</li></p>
+                            <p><li>If relevant to your system, do you somehow tell your (end-)users that they are interacting with an AI system and not with another human being?</li></p>
+                            <p><li>Do you collect user feedback? How is it used to change/improve the system?</li></p>
+                            <p><li>Are communication and transparency towards other audences, such as the general public, relevant?</li></p>
+                            </p>
+
+                            <p>Practical Example:
+                            Clearly stating what data you collect and why can make you seem much more trustworthy. Compare this to a cellphone application that just states it needs to access your camera and storage.
+                            </p>
+                    </div>
+                </label>
+            </p>
+        </div>
+    </div>
+   	<div class="flex-container">
+        <div>
+            <p>
+                <label class="choice"> 
+                <strong>Transparency</strong>
+                    <div style="background-color:Violet;width:400px;border:1px solid black;padding:15px;">
+                        <p><input type="checkbox" name="extras" value="Card"> #4 Documenting Trade-offs</p>
+                        <p>Motivation: 
+                        One important part of transparent system development is the documentation of trade-offs. Whenever you make a decision, you choose one option over other alternatives. However, documenting why and what the alternatives were important.
+                        </p>
+                        <p>What to do: 
+                        Ask yourself:
+                        <p><li>Are relevant interests and values implicated by the system and potential trade-offs between them identified and documented?</li></p>
+                        <p><li>Who decides on such trade-offs (e.g. between two competing solutions) and how? Did you ensure that the trade-off decision and the reasons behind it were documented?</li></p>
+
+                        <p>Practical Example:
+                        Documenting trade-offs can improve your customer relationship, allowing you to better explain why certain decisions were amde over others. Moreover, it can reduce the responsability placed on the individual developer(s) from an ethical point of view.
+                        </p>
+                    </div>
+                </label>
+            </p>
+        </div>
+        <div>
+            <p>
+                <label class="choice"> 
+                <strong>Transparency</strong>
+                    <div style="background-color:Violet;width:400px;border:1px solid black;padding:15px;">
+                        <p><input type="checkbox" name="extras" value="Card"> #5 Traceability</p>
+                        <p>Motivation: 
+                        Traceability supports explainability. It helps us understand why the AI acts the way it does.</p>
+                        <p>What to do: 
+                        Document different types of documentation (code, project etc.) are typically key in producing transparency.
+                        <p><li>How have you documented the development of the system, both in terms of code and decision-making? How was the model built or the AI trained?</li></p>
+                        <p><li>How have you documented the testing and validation process? Interms of data and scenarios used etc.</li></p>
+                        <p><li>How do you document the actions of the system? What about alternate actions(e.g. if the user was different but the situation otherwise the same)?</li></p>
+                        </p>
+                        <p>Practical Example:
+                        Whe the system starts making mistakes, by aiming for traceability, it will be easier to find out the cause. Consequently, it will also be faster anf possibly easier to find out the cause. Consequently, it will also be faster and possibly easier to start fixing the underlying issue.
+                        </p>
+                    </div>
+                </label>
+            </p>
+        </div>
+       	<div>
+            <p>
+                <label class="choice"> 
+                <strong>Transparency</strong>
+                    <div style="background-color:Violet;width:400px;border:1px solid black;padding:15px;">
+                        <p><input type="checkbox" name="extras" value="Card"> #6 System Reliability</p>
+                        <p>Motivation: 
+                        Transparency makes ethical development possible in the first place. To make it ethical, we must understand how the system works and why it makes certain decisions.
+                        </p>
+                        <p>What to do: 
+                        Ask yourself:
+                        <p><li>How do you test if the system fulfills its goals?</li></p>
+                        <p><li>Have you tested the system comprehensively, inclusding unlikely scenarios? Have the tests been documented?</li></p>
+                        <p><li>When the system fails in a certain scenario, will you be able to tell why? Can you replicate the failure?</li></p>
+                        <p><li>How do you assure the (end-)user of the system's reliability?</li></p>
+                        </p>
+                        <p>Practical Example:
+                        An autonomous coffee machine successfully brews coffee 8 times out 10. While this is a decent success rate, we are left wondering what happened the 2 times it failed to do so, and why. Erros are inevitable, but we must understand the causes behind them and be able to replicate them to fix them.
+                        </p>
+                    </div>
+                </label>
+            </p>
+        </div>
+    </div>
+   	<div class="flex-container">
+        <div>
+            <p>
+                <label class="choice"> 
+                <strong>Data</strong>
+                    <div style="background-color:LightBlue;width:400px;border:1px solid black;padding:15px;">
+                        <p><input type="checkbox" name="extras" value="Card"> #7 Privacy and Data</p>
+                            <p>Motivation: 
+                            Privacy is a rising trend in the wake of various recent data missue reveals. People are now increasingly conscious about handing out personal data. Similarly, regulations such as GDPR now affect data collection.</p>
+                            <p>What to do: Ask yourself: 
+                            <p><li>What data are used by the system?</li></p>
+                            <p><li>Does the system use or collect personal data? Why? How is the personal data used?</li></p>
+                            <p><li>Do you clearly inform your (end-)users about any personal data collection? E.g., asj for consent, provide an opportunity to revoke it etc.</li></p>
+                            <p><li>Have you taken measures to enhance (end-user) privacy, such as encryption or anonymization?</li></p>
+                            <p><li>Who makes the decisions regarding data use and collection? Do you have organizational policies for it?</li></p>
+                            <p>Practical Example:
+                            Rather than collection and selling data, appealling yo privacy can also be profitable. Regulations are making it increasingly difficult to collect lots of personal data for profit. Privacy can be an alternate selling point in today's climate.</p>
+                    </div>
+                </label>
+            </p>
+        </div>
+        <div>
+            <p>
+                <label class="choice"> 
+                <strong>Data</strong>
+                    <div style="background-color:LightBlue;width:400px;border:1px solid black;padding:15px;">
+                        <p><input type="checkbox" name="extras" value="Card"> #8 Data Quality</p>
+                        <p>Motivation: 
+                        As AI are trained using data, the data used directly affects how the system operates. Both the nature and the quality and integrity of the data used has to align with goals of the system.
+                        </p>
+                        <p>What to do: 
+                        Ask yourself:
+                        <p><li>What are good or poor quality data in the context of your system?</li></p>
+                        <p><li>How do you evaluate the quality and integrity of your own data? Are there alternative ways?</li></p>
+                        <p><li>If you utilize data from external sources, how do you control their quality?</li></p>
+                        <p><li>Did you align yout system with relevant standards (for example ISO, IEEE) or widely adopted protocols for daily data management and governance?</li></p>
+                        <p><li>How can you tell if your data sets have been hacked or otherwise compromised?</li></p>
+                        </p>
+                        <p>Practical Example:
+                        In 2017, Amazon scrapped its recruitment AI because of bad data. They used past recruitment data to teach the AI. As they had mostly hired men, the AI began to consider women undesirable based on the data.</p>
+                    </div>
+                </label>
+            </p>
+        </div>
+        <div>
+            <p>
+                <label class="choice"> 
+                <strong>Agency & Oversight</strong>
+                    <div style="background-color:LightSeaGreen;width:400px;border:1px solid black;padding:15px;">
+                        <p><input type="checkbox" name="extras" value="Card"> #9 Access to Data</p>
+                        <p>Motivation: 
+                        Aside from carefully planning what data you colect and how it is also important to plan how it can or will be used and by whom.</p>
+                        <p>What to do: 
+                        Ask yourself:
+                        <p><li>Who can access the users'data, and under what circumstances?</li></p>
+                        <p><li>How do you ensure that the people who access the data: 1) have a valid reason to do so. and 2) adhere to the regulations and policies related to data?</li></p>
+                        <p><li>Do you keep logs of who accesses the data and when? Do the logs also tell why?</li></p>
+                        <p><li>Do you use existing data governance frameworks or protocols? Does your organization have its own?</li></p>
+                        <p><li>Who handles the data collection, storage and use?</li></p>
+                        </p>
+                        <p>Practical Example:
+                        Third parties you give access to the data can misuse it. A prominent example of this is the case of Cambridge Analytica and Facebook, in which data from FAcebook was used questionably. However, such incidents can also paint your organization in a bad way.</p>
+                    </div>
+                </label>
+            </p>
+        </div>
+    </div>
+   	<div class="flex-container">
+        <div>
+            <p>
+                <label class="choice"> 
+                <strong>Agency & Oversight</strong>
+                    <div style="background-color:LightSeaGreen;width:400px;border:1px solid black;padding:15px;">
+                        <p><input type="checkbox" name="extras" value="Card"> #10 Human Agency</p>
+                        <p>Motivation: 
+                        People interacting with the system or using it shoud be able to undersand it sufficiently. Users should be able to make informed decisions based on its suggestions, or to challenge its suggestions. AI systems should let humans make independent choices.
+                        </p>
+
+                        <p>What to do: 
+                        Ask yourself:
+                        <p><li>Does the system interact with decisions by human actors, i.e. end users (e.g. recommending users actions or decisions, or presenting options)?</li></p>
+                        <p><li>Does the system communicate to its (end) users that a decision, content or outcome is the result of an algorithmic decision? Into how much detail does it go?</li></p>
+                        <p><li>In the system`s use context, what tasks are done by the system and what tasks are done by humans?</li></p>
+                        <p><li>Have you taken measures to prevent overconfidence or overreliance on the system?</li></p>
+
+                        <p>Practical Example:
+                        A medical system recommends diagnoses. How does the system communicate to doctors why it made a recommendation? How should the doctors know when to challenge the system? Does the system somehow change how patients and doctors interact?
+                        </p>
+                    </div>
+                </label>
+            </p>
+        </div>
+        <div>
+            <p>
+                <label class="choice"> 
+                <strong>Safety & Security</strong>
+                    <div style="background-color:lightgreen;width:400px;border:1px solid black;padding:15px;">
+                        <p><input type="checkbox" name="extras" value="Card"> #11 Human Oversight</p>
+                        <p>Motivation: 
+                        AI systems shoud support human decision-making. They shoud not undermine human autonomy by making decisions for us, meaning they shoud be subject to human oversight.</p>
+
+                        <p>What to do: 
+                        Ask yourself:
+                        <p><li>Who can control the system and how? In what situations?</li></p>
+                        <p><li>What would be the appropriate level of huan control for this particular system an its use cases?</li></p>
+                        <p><li>Related to the Safety and Security cards: how do you detect and respond if something goes wrong? Does the system then stop entirely, partially, or would control be delegated to a human? Why?</li></p>
+
+                        <p>Practical Example:
+                        Assuming control is especially related to cyber-physical systems such as drones or other vehicles. For purely digital systems, the focus should be on supporting human decision-making instead of directing it.
+                        </p>
+                    </div>
+                </label>
+            </p>
+        </div>
+        <div>
+            <p>
+                <label class="choice"> 
+                <strong>Safety & Security</strong>
+                    <div style="background-color:lightgreen;width:400px;border:1px solid black;padding:15px;">
+                        <p><input type="checkbox" name="extras" value="Card"> #12 System Security</p>
+                        <p>Motivation: 
+                        While cybersecurity is important in any system, AI systems present new challenges. Cyber-physical systems can even cause fatalities in the hands of malicious actors.
+                        </p>
+                        <p>What to do: 
+                        Ask yourself:
+                        <p><li>Did you assess potential forms of attacks to which the system could be vulnerable? Did you consider ones that are unique or more relevant to AI systems?</li></p>
+                        <p><li>Did you consider different types of vulnerabilities, such as data pollution and physical infrastructure?</li></p>
+                        <p><li>Have you verified how your systems behaves in unexpected situations and environments?</li></p>
+                        <p><li>Does your organization have cybersecurity personnel? Are they involved in this system?</li></p>
+                        <p>Practical Example:
+                        The autonomous nature of AI systems makes new vectos of attack possible. A white line drawn across a road can confuse a self-driving vehicle. What happened to Microsoft's Tay Twitter bot is another example of a new type of attack.
+                        </p>
+                    </div>
+                </label>
+            </p>
+        </div>
+    </div>
+   	<div class="flex-container">
+        <div>
+            <p>
+                <label class="choice"> 
+                <strong>Fairness</strong>
+                    <div style="background-color:Yellow;width:400px;border:1px solid black;padding:15px;">
+                        <p><input type="checkbox" name="extras" value="Card"> #13 System Safety</p>
+                        <p>Motivation: 
+                        AI systems exert notable influence on the physical world whether they are cyber-physical or not. Various risks and their consequences should be considered, thinking ahead to the operational life of the system.
+                        </p>
+                        <p>What to do: 
+                        Ask yourself:
+                        <p><li>What kind of risks does the system involve? What kind of damage could it cause?</li></p>
+                        <p><li>How do you measure and assess risks and safety?</li></p>
+                        <p><li>In what conditions do the fallback plans trigger? Are they automatic or do they require human input?</li></p>
+                        <p><li>Is there a plan to mitigate or manage technological errors, accidnts, or malicious misuse? What if the systems provides wrong results, becomes unavailable, or provides societally unacceptable results?</li></p>
+                        <p><li>What liability and consumer protection laws apply to your system? Have you taken them into account?</li></p>
+                        </p>
+                        <p>Practical Example:
+                        AI systems can aid automating various organizational tasks, making it possible to reduce personnel. However, if a customer organization becomes reliant on your AI system to handle a portion of its operations, what happens if that AI stops functioning for even a few days? What could you do to alleviate the impact?
+                        </p>
+                    </div>
+                </label>
+            </p>
+        </div>
+        <div>
+            <p>
+                <label class="choice"> 
+                <strong>Fairness</strong>
+                    <div style="background-color:Yellow;width:400px;border:1px solid black;padding:15px;">
+                        <p><input type="checkbox" name="extras" value="Card"> #14 Accessbility</p>
+                        <p>Motivation: 
+                        Technology can be discriminatin in various ways. Given the enormous impact AI systems can have, ensuring equal access to their positive impacts is ethically important.
+                        </p>
+                        <p>What to do: 
+                        Ask yourself:
+                        <p><li>Does the system consider a wide range of individual preferences and abilities? If not, why?</li></p>
+                        <p><li>Is the system usable by those with special needs or disabilities, those at risk of exclusion, or those using assistive technologies?</li></p>
+                        <p><li>Were people representing various groups somehow involved in the development of the system?</li></p>
+                        <p><li>How is the potential user audience taken into account?</li></p>
+                        <p><li>Is the team involved in building the sustem representative of your largel user audience? Is it representative of the general population?</li></p>
+                        <p><li>Did you assess whether there could be (groups of) people?</li></p>
+                        </p>
+                        <p>Practical Example:
+                        AI tends to benefit those who are already technologically capable, resulting in increased inequality. E.g. most of the images used in machine learning have been labeled by young white men.
+                        </p>
+                    </div>
+                </label>
+            </p>
+        </div>
+        <div>
+            <p>
+                <label class="choice"> 
+                <strong>Analyze</strong>
+                    <div style="background-color:Yellow;width:400px;border:1px solid black;padding:15px;">
+                        <p><input type="checkbox" name="extras" value="Card"> #15 Stakeholder Participation</p>
+                        <p>Motivation: 
+                        As AI systems have notable impacts, they stakeholders are also numerous. Though the system affects these various holders in various ways, they are often not involved in the development. Yet, e.g. when using a decision-making system, its users have to trust the system while also being critical of it.
+                        </p>
+                        <p>What to do: 
+                        Turn to your stakeholder analysis (card #0):
+                        <p><li>Which stakeholders are stakeholders in system development?</li></p>
+                        <p><li>How are the different stakeholders of the system involved in the development of the system? If they aren't, why?</li></p>
+                        <p><li>How do you inform your external and internal stakeholders of the system's development?</li></p>
+                        </p>
+                        <p>Practical Example:
+                        Often the people an AI system is used on are individuals who are simply objects for the system. For example, a medical system is developed for hospitals, used by doctors, but ultimately used on patients. Why not talk to the patients too?
+                        </p>
+                    </div>
+                </label>
+            </p>
+        </div>
+    </div>
+   	<div class="flex-container">
+        <div>
+            <p>
+                <label class="choice"> 
+                <strong>Wellbeing</strong>
+                    <div style="background-color:Orange;width:400px;border:1px solid black;padding:15px;">
+                        <p><input type="checkbox" name="extras" value="Card"> #16 Environmental Impacts</p>
+                        <p>Motivation: 
+                        Past the general wellbeing implications, ecological consciousness is a current trend. Being ecological can be a selling point for your organization.
+                        </p>
+                        <p>What to do: 
+                        Ask yourself:
+                        <p><li>Did you assess the environmental impact of the system's development, deployment, and use? E.g., the type of energy used by the data centers.</li></p>
+                        <p><li>Did you consider the environmental impact when selecting specific technical solutions?</li></p>
+                        <p><li>Did you ensure measures to reduce the environmental impact of your system's life cycle?</li></p>
+                        </p>
+                        <p>Practical Example:
+                        If you are hosting on a third party cloud, try to ascertain the systainability of the service provider's services. If you are using hardware, are you processing the data in each physical device of your own or are you processing it in the cloud?
+                        </p>
+                    </div>
+                </label>
+            </p>
+        </div>
+        <div>
+            <p>
+                <label class="choice"> 
+                <strong>Wellbeing</strong>
+                    <div style="background-color:Orange;width:400px;border:1px solid black;padding:15px;">
+                        <p><input type="checkbox" name="extras" value="Card"> #17 Societal Effects</p>
+                        <p>Motivation: 
+                        The impacts a system has go beyond its userbase. A system may well affect negatively even those who do net use it nor wish to use it.
+                        </p>
+                        <p>What to do: 
+                        Ask yourself:
+                        <p><li>Did you assess the brader societal impact of the AI system's use beyond the individual (end-)users? Consider stakeholders who might be indirectly affected by the system. </li></p>
+                        <p><li>How will the systems affect society when in use?</li></p>
+                        <p><li>What kind of systemic effects could the system have?</li></p>
+                        </p>
+                        <p>Practical Example:
+                        Surveillance technology utilizing facial recognition AI has long=reaching impacts. People may wish to avoid areas that utilize such surveillance, negatively affecting businesses in said area. People may become stressed  at the mere thought of such surveillance. Some may even emigrate as a result.
+                        </p>
+                    </div>
+                </label>
+            </p>
+        </div>
+        <div>
+            <p>
+                <label class="choice"> 
+                <strong>Accountability</strong>
+                    <div style="background-color:Tomato;width:400px;border:1px solid black;padding:15px;">
+                        <p><input type="checkbox" name="extras" value="Card"> #18 Auditability</p>
+                        <p>Motivation: 
+                        Regulations affecting AI and data may necessitate audits of systems in the future. Similarly, if the system causes damage, an audit might be requested. It is good to have mechanisms in place beforehand.
+                        </p>
+                        <p>What to do: 
+                        Ask yourself:
+                        <p><li>Is the system auditable?</li></p>
+                        <p><li>Can an audit be conducted independently?</li></p>
+                        <p><li>Is the system available for inspection?</li></p>
+                        <p><li>What mechanisms facilitate the system's auditability? How is traceability and logging of the systems's processess and outcomes ensured?</li></p>
+                        </p>
+                        <p>Practical Example:
+                        In heavily regulated fields such as medicine, audits are typically required before a system can be utilized in the first place. 
+                        </p>
+                    </div>
+                </label>
+            </p>
+        </div>
+    </div>
+   	<div class="flex-container">
+        <div>
+            <p>
+                <label class="choice"> 
+                <strong>Accountability</strong>
+                    <div style="background-color:Tomato;width:400px;border:1px solid black;padding:15px;">
+                        <p><input type="checkbox" name="extras" value="Card"> #19 Ability to Redress</p>
+                            <p>Motivation: 
+                            Making sure people know they can be compensated in some way in the event something goes wrong with the system is important in generating trust. Such scenarios should be planned in advance to what extent possible.
+                            </p>
+                            <p>What to do: 
+                            Ask yourself:
+                            <p><li>What is your (developer organization) responsability if the system causes damage or otherwise has a negative impact?</li></p>
+                            <p><li>In the event of negative impact, can the ones affected seek responsability?</li></p>
+                            <p><li>How do you inform users and other third parties about opportunities for redress?</li></p>
+                            </p>
+                            <p>Practical Example:
+                            AI systems can inconvenience users in unforeseen, unpredictable ways. Depending on the situation, the company may or may not be legally responsible for the inconvenience. Noetheless, by offering a digital platform for seeking refress, your company can seem more trustworthy while also offering additional value to your users.
+                            </p>
+                    </div>
+                </label>
+            </p>
+        </div>
+        <div>
+            <p>
+                <label class="choice"> 
+                <strong>Accountability</strong>
+                    <div style="background-color:Tomato;width:400px;border:1px solid black;padding:15px;">
+                        <p><input type="checkbox" name="extras" value="Card"> #20 Minimizing Negative Impacts</p>
+                            <p>Motivation: 
+                            Minimizing negative impacts of the system is financially important for any developer organization. Incidents are often costly.
+                            </p>
+                            <p>What to do: 
+                            <p><li>First, consider:
+                                <ul>
+                                <li>Is your stakeholder analysis is up-to-date {Card #0}</li>
+                                <li>Have you discussed risks? {Card #13}</li>
+                                <li>Have you discussed auditability? {Card #18}</li>
+                                <li>Have you discussed redress issues? {Card #19}</li>
+                                </ul>
+                            </li></p>
+                            <p><li>Are the people involved with the development of the system also involved with the development of the system also involved with it during its operational life? If not, they may not feel as accountable.</li></p>
+                            <p><li>Are you aware of laws related to the system?</li></p>
+                            <p><li>Can users of the system somehow report volnerabilities, risks and other issues in the system?</li></p>
+                            <p><li>With whom have you discused accountability and other ethical?</li></p>
+                        </p>
+                    </div>
+                </label>
+            </p>
+        </div>
+    </div>
+                 
+    <!-- JavaScript: placed at the end of the document so the pages load faster -->
+		<!-- jQuery library -->
+		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+
+		<!-- Popper -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+
+		<!-- Latest compiled and minified Bootstrap JavaScript -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</html>
