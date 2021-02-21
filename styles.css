@@ -1,0 +1,168 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background:url("background.jpg");
+  overflow: hidden;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  grid-template-columns: 300px;
+  grid-template-rows: 210px 210px 80px;
+  grid-template-areas: "stats" "text";
+
+  background: white;
+  box-shadow: 5px 5px 15px rgba(0,0,0,0.9);
+  font-family: roboto;
+  text-align: center;
+  
+
+  transition: 0.5s ease;
+  cursor: pointer;
+  margin:30px;
+}
+
+.card-stats {
+  grid-area: stats; 
+  display: grid;
+  grid-template-rows: 1fr;
+  background: rgba(6, 2, 66, 0.897);
+}
+.card-stats .stat {
+  padding:10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+}
+.card-stats .border {
+  border-left: 1px solid  rgba(23, 7, 255, 0.897);
+  border-right: 1px solid rgba(23, 7, 255, 0.897);
+}
+.card-stats .value{
+  font-size:3vw;
+  font-weight: 500;
+}
+.card-stats .value sup{
+  font-size:3vw;
+}
+.card-stats .type{
+  font-size:2vw;
+  text-transform: uppercase;
+}
+.card-text {
+  grid-area: text;
+  margin: 25px;
+}
+.card-text .title {
+  color: rgba(6, 2, 66, 0.897);
+  font-size:2vw;
+}
+.card-text p {
+  color: grey;
+  font-size: 1vw;
+  font-weight: 300;
+}
+.card-text h2 {
+  margin-top:0px;
+  font-size:2vw;
+}
+.card:hover {
+  transform: scale(1.15);
+  box-shadow: 5px 5px 15px rgba(0,0,0,0.6);
+}
+
+/*card2*/
+.card-text.card2 .date {
+  color: rgb(255, 77, 7);
+}
+.card-stats.card2 .border {
+  border-left: 1px solid rgb(185, 67, 20);
+  border-right: 1px solid rgb(185, 67, 20);
+}
+.card-stats.card2 {
+  background: rgb(255, 77, 7);
+}
+
+/*card3*/
+.card-text.card3 .date {
+  color: rgb(0, 189, 63);
+}
+.card-stats.card3 .border {
+  border-left: 1px solid rgb(14, 122, 50);
+  border-right: 1px solid rgb(14, 122, 50);
+}
+.card-stats.card3 {
+  background: rgb(0, 189, 63);
+}
+
+/*card4*/
+.card-text.card4 .date {
+  color: rgb(0, 189, 63);
+}
+.card-stats.card4 .border {
+  border-left: 1px solid rgb(14, 122, 50);
+  border-right: 1px solid rgb(14, 122, 50);
+}
+.card-stats.card4 {
+  background: rgb(0, 189, 63);
+}
+
+/*card5*/
+.card-text.card5 .date {
+  color: rgb(0, 189, 63);
+}
+.card-stats.card5 .border {
+  border-left: 1px solid rgb(14, 122, 50);
+  border-right: 1px solid rgb(14, 122, 50);
+}
+.card-stats.card5 {
+  background: rgb(0, 189, 63);
+}
+
+/*card6*/
+.card-text.card6 .date {
+  color: rgb(0, 189, 63);
+}
+.card-stats.card6 .border {
+  border-left: 1px solid rgb(14, 122, 50);
+  border-right: 1px solid rgb(14, 122, 50);
+}
+.card-stats.card6 {
+  background: rgb(0, 189, 63);
+}
+
+/*card7*/
+.card-text.card7 .date {
+  color: rgb(0, 189, 63);
+}
+.card-stats.card7 .border {
+  border-left: 1px solid rgb(14, 122, 50);
+  border-right: 1px solid rgb(14, 122, 50);
+}
+.card-stats.card7 {
+  background: rgb(0, 189, 63);
+}
+
+/*card8*/
+.card-text.card8 .date {
+  color: rgb(0, 189, 63);
+}
+.card-stats.card8 .border {
+  border-left: 1px solid rgb(14, 122, 50);
+  border-right: 1px solid rgb(14, 122, 50);
+}
+.card-stats.card8 {
+  background: rgb(0, 189, 63);
+}
