@@ -1,7 +1,3 @@
-
-    
-        
-             
 Analyze
     
         #0 Stakeholder Analysis
@@ -18,13 +14,6 @@ Analyze
         Practical Example: 
             Autonomous cars don't just affect their passengers. Anyone mearby is affected; some even change the way they drive. If at one point half of the traffic consists of selt-driving cars, what are the societal impacts of such systems? E.g., how are the people who can't afford one affected? Regulations arising from such systems are also affect everyone.
     
-
-
-
-
-
-
-
     
 Transparency
 
@@ -40,13 +29,7 @@ Transparency
             Are you trying to understand or explain why the system was made to be the way it is now? (Transparency of system development)
             External stakeholders to consider, among other: (end-)users, safety certification agencies, accident investigators, lawyers or expert witnesses, and society at large for disruptive technologies.
         
-    
-
-
-
-
-
-    
+  
 Transparency
 
         #2 Explainability
@@ -87,15 +70,7 @@ Transparency
             Practical Example:
                 Clearly stating what data you collect and why can make you seem much more trustworthy. Compare this to a cellphone application that just states it needs to access your camera and storage.
             
-    
-
-
-
-
-
-
-
-    
+   
 Transparency
 
         #4 Documenting Trade-offs
@@ -110,13 +85,7 @@ Transparency
         Practical Example:
             Documenting trade-offs can improve your customer relationship, allowing you to better explain why certain decisions were amde over others. Moreover, it can reduce the responsability placed on the individual developer(s) from an ethical point of view.
         
-    
-
-
-
-
-
-    
+   
 Transparency
 
         #5 Traceability
@@ -132,13 +101,7 @@ Transparency
         Practical Example:
             Whe the system starts making mistakes, by aiming for traceability, it will be easier to find out the cause. Consequently, it will also be faster anf possibly easier to find out the cause. Consequently, it will also be faster and possibly easier to start fixing the underlying issue.
         
-    
-
-
-
-
-
-    
+  
 Transparency
 
         #6 System Reliability
@@ -155,15 +118,7 @@ Transparency
         Practical Example:
             An autonomous coffee machine successfully brews coffee 8 times out 10. While this is a decent success rate, we are left wondering what happened the 2 times it failed to do so, and why. Erros are inevitable, but we must understand the causes behind them and be able to replicate them to fix them.
         
-    
-
-
-
-
-
-
-
-    
+   
 Data
 
         #7 Privacy and Data
@@ -180,12 +135,7 @@ Data
             Practical Example:
                 Rather than collection and selling data, appealling yo privacy can also be profitable. Regulations are making it increasingly difficult to collect lots of personal data for profit. Privacy can be an alternate selling point in today's climate.
     
-
-
-
-
-
-    
+   
 Data
 
         #8 Data Quality
@@ -203,11 +153,6 @@ Data
         Practical Example:
             In 2017, Amazon scrapped its recruitment AI because of bad data. They used past recruitment data to teach the AI. As they had mostly hired men, the AI began to consider women undesirable based on the data.
     
-
-
-
-
-
     
 Agency & Oversight
     
@@ -226,14 +171,7 @@ Agency & Oversight
         Practical Example:
             Third parties you give access to the data can misuse it. A prominent example of this is the case of Cambridge Analytica and Facebook, in which data from FAcebook was used questionably. However, such incidents can also paint your organization in a bad way.
     
-
-
-
-
-
-
-
-    
+   
 Agency & Oversight
     
         #10 Human Agency
@@ -251,13 +189,7 @@ Agency & Oversight
         Practical Example:
             A medical system recommends diagnoses. How does the system communicate to doctors why it made a recommendation? How should the doctors know when to challenge the system? Does the system somehow change how patients and doctors interact?
         
-    
-
-
-
-
-
-    
+   
 Safety & Security
     
         #11 Human Oversight
@@ -273,13 +205,7 @@ Safety & Security
         Practical Example:
             Assuming control is especially related to cyber-physical systems such as drones or other vehicles. For purely digital systems, the focus should be on supporting human decision-making instead of directing it.
         
-    
-
-
-
-
-
-    
+   
 Safety & Security
     
         #12 System Security
@@ -296,14 +222,6 @@ Safety & Security
         Practical Example:
             The autonomous nature of AI systems makes new vectos of attack possible. A white line drawn across a road can confuse a self-driving vehicle. What happened to Microsoft's Tay Twitter bot is another example of a new type of attack.
         
-    
-
-
-
-
-
-
-
     
 Fairness
     
@@ -322,13 +240,7 @@ Fairness
         Practical Example:
             AI systems can aid automating various organizational tasks, making it possible to reduce personnel. However, if a customer organization becomes reliant on your AI system to handle a portion of its operations, what happens if that AI stops functioning for even a few days? What could you do to alleviate the impact?
         
-    
-
-
-
-
-
-    
+  
 Fairness
     
         #14 Accessbility
@@ -347,13 +259,7 @@ Fairness
         Practical Example:
             AI tends to benefit those who are already technologically capable, resulting in increased inequality. E.g. most of the images used in machine learning have been labeled by young white men.
         
-    
-
-
-
-
-
-    
+   
 Analyze
     
         #15 Stakeholder Participation
@@ -369,14 +275,6 @@ Analyze
         Practical Example:
             Often the people an AI system is used on are individuals who are simply objects for the system. For example, a medical system is developed for hospitals, used by doctors, but ultimately used on patients. Why not talk to the patients too?
         
-    
-
-
-
-
-
-
-
     
 Wellbeing
     
@@ -394,12 +292,6 @@ Wellbeing
             If you are hosting on a third party cloud, try to ascertain the systainability of the service provider's services. If you are using hardware, are you processing the data in each physical device of your own or are you processing it in the cloud?
         
     
-
-
-
-
-
-    
 Wellbeing
     
         #17 Societal Effects
@@ -414,12 +306,6 @@ Wellbeing
         
         Practical Example:
             Surveillance technology utilizing facial recognition AI has long=reaching impacts. People may wish to avoid areas that utilize such surveillance, negatively affecting businesses in said area. People may become stressed  at the mere thought of such surveillance. Some may even emigrate as a result.
-        
-    
-
-
-
-
 
     
 Accountability
@@ -437,16 +323,8 @@ Accountability
             
         Practical Example:
             In heavily regulated fields such as medicine, audits are typically required before a system can be utilized in the first place. 
-        
-    
 
 
-
-
-
-
-
-    
 Accountability
     
         #19 Ability to Redress
@@ -461,11 +339,6 @@ Accountability
                 
             Practical Example:
                 AI systems can inconvenience users in unforeseen, unpredictable ways. Depending on the situation, the company may or may not be legally responsible for the inconvenience. Noetheless, by offering a digital platform for seeking refress, your company can seem more trustworthy while also offering additional value to your users.
-            
-    
-
-
-
 
 
     
@@ -482,14 +355,7 @@ Accountability
                     Have you discussed risks? {Card #13}
                     Have you discussed auditability? {Card #18}
                     Have you discussed redress issues? {Card #19}
-                    
-                
-            Are the people involved with the development of the system also involved with the development of the system also involved with it during its operational life? If not, they may not feel as accountable.
-            Are you aware of laws related to the system?
-            Can users of the system somehow report volnerabilities, risks and other issues in the system?
-            With whom have you discused accountability and other ethical?
-        
-    
-
-
-
+                 Are the people involved with the development of the system also involved with the development of the system also involved with it during its operational life? If not, they may not feel as accountable.
+                Are you aware of laws related to the system?
+                Can users of the system somehow report volnerabilities, risks and other issues in the system?
+                With whom have you discused accountability and other ethical?
